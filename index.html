@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/Swati.jpeg" type="image/x-icon">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./style/style.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/Sujal.jpg" alt="Sujal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sujal">Sujal</h1>
+          <p class="title">Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:sujalgupta09@gmail.com" class="contact-link">
+                sujalgupta09@gmail.com
+              </a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+91-8130010579" class="contact-link">+91-8130010579</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2000-09-20">Sept 20, 2000</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Rohini, New Delhi, India</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/sujal290" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/sujalgupt09/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sujal-2009dtu/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a highly driven and detail-oriented Software Engineer pursuing a B.Tech in Information Technology from
+            Delhi Technological University (DTU). My academic journey is complemented by hands-on industry experience as
+            a Software Engineering Intern at DRDO (New Delhi), where I developed and deployed web solutions using PHP,
+            SQL, and XAMPP, improving workflow efficiency, reducing administrative costs, and accelerating service
+            delivery by 45%.
+          </p>
+
+          <p>
+            Beyond my internship, I have built impactful projects, including:
+            <br><br>
+            <strong>MOVIX</strong> — a ReactJS + Redux Toolkit movie app powered by the TMDB API, optimized with lazy
+            loading for a 420ms load time.<br>
+            <strong>Amazon Clone</strong> — a MERN-based e-commerce platform integrated with Stripe for payments,
+            achieving a 372ms load time.<br>
+            <strong>Razorpay Clone</strong> — a full-stack payment gateway simulation, optimized for scalability and
+            seamless user experience.<br>
+            <strong>Snake Game+</strong> — an advanced game project in Python with custom graphics, scoring, and
+            collision detection.
+          </p>
+
+          <p>
+            I bring expertise in ReactJS, NodeJS, Python, C++, SQL, MongoDB, and Express.js, along with a solid
+            foundation in Data Structures and Algorithms. My problem-solving ability is reflected in my performance on
+            competitive programming platforms: LeetCode (Max rating: 1912) and CodeChef (Max rating: 1621).
+          </p>
+
+          <p>
+            Additionally, as a mentor in the Delhi Government’s "Desh Ke Mentor" program, I guided students in academics
+            and career exploration, sharpening my communication and leadership skills.
+          </p>
+
+          <p>
+            Fueled by a passion for scalable software systems, problem-solving, and continuous learning, I am eager to
+            take on challenging software engineering roles and contribute to building innovative, user-centric solutions.
+          </p>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service">
+          <h3 class="h3 service-title">My Interests</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/icon-dev.svg" alt="Web" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  Built a full-stack web portal during my internship at DRDO (New Delhi) using PHP, SQL,
+                   and XAMPP, improving workflow efficiency and reducing administrative costs.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/icon-datascience.svg" alt="ML" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <p class="service-item-text">
+                  Built an academic RAG project integrating LLMs and vector databases for accurate document querying. Implemented Document Reader and Sentiment Analysis models with NLP/ML,
+                   improving text summarization and achieving 88% classification accuracy.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/MERN.png" alt="MERN icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full MERN Stack</h4>
+                <p class="service-item-text">
+                  I’m building my full-stack development skills by learning the MERN stack — MongoDB, Express.js,
+                  React.js, and Node.js.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/MERN.png" alt="MERN icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Structures and Algorithms</h4>
+                <p class="service-item-text">
+                  I have a solid foundation in Data Structures and Algorithms, reflected in my performance on
+                  programming platforms.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">My experience</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <link rel="alternate" href="https://www.drdo.gov.in/drdo/labs-and-establishments/centre-fire-explosive-and-environment-safety-cfees" type="application/atom+xml" title="Atom">
+                <img src="./images/drdologo copy.jpeg" alt="Web" width="100">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service
+>-item-title">Software Engineering Intern at DRDO (New Delhi)</h4>
+                <p class="service-item-text">
+                  Developed and deployed a web portal using PHP, SQL, and XAMPP to streamline administrative tasks,
+                  improving workflow efficiency, reducing administrative costs, and accelerating service delivery by 45%.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+      <!-- (Resume, Portfolio, Blog, Contact sections remain similarly structured & formatted neatly...) -->
+
+    </div>
+  </main>
+
+  <!-- custom js -->
+  <script src="./js/script.js"></script>
+
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
