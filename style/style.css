@@ -515,6 +515,16 @@
     box-shadow: var(--shadow-2);
     z-index: 1;
   }
+  .service-item-others {
+    margin: 5px;
+    position: relative;
+    background: var(--border-gradient-onyx);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 14px;
+    box-shadow: var(--shadow-2);
+    z-index: 1;
+  }
   
   .service-item::before {
     content: "";
